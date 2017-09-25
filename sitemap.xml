@@ -9,7 +9,21 @@
   </url>
   
   <url>
-    <loc>https://ouyangyewei.github.io/2016/04/18/linux-clear-trash/</loc>
+    <loc>https://ouyangyewei.github.io/2017/01/21/java-static/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2017/01/28/java-final-and-private/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2017/04/03/java-classfile/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
@@ -30,42 +44,7 @@
   </url>
   
   <url>
-    <loc>https://ouyangyewei.github.io/2017/01/21/java-static/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://ouyangyewei.github.io/2017/04/01/java-string/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2017/04/01/java-stringbuffer/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2017/01/28/java-final-and-private/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2016/04/27/linux-killtask-command/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2016/01/10/linux-multi-process-concurrent-control/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
@@ -79,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://ouyangyewei.github.io/2017/04/03/java-classfile/</loc>
+    <loc>https://ouyangyewei.github.io/2017/04/01/java-stringbuffer/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
@@ -87,6 +66,27 @@
   
   <url>
     <loc>https://ouyangyewei.github.io/2017/03/13/java-pass-by-value-and-pass-by-reference/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2016/04/27/linux-killtask-command/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2016/04/18/linux-clear-trash/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2016/01/10/linux-multi-process-concurrent-control/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
