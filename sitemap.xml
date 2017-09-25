@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ouyangyewei.github.io/baidu_verify_nNC0e0gzd4.html</loc>
+    <loc>https://ouyangyewei.github.io/2017/03/13/java-pass-by-value-and-pass-by-reference/</loc>
     
-    <lastmod>2017-09-25T14:21:36.000Z</lastmod>
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://ouyangyewei.github.io/2017/01/21/java-static/</loc>
+    <loc>https://ouyangyewei.github.io/2017/02/05/java-abstract-and-interface/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
@@ -30,13 +30,6 @@
   </url>
   
   <url>
-    <loc>https://ouyangyewei.github.io/2017/02/07/java-inner-class/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://ouyangyewei.github.io/2017/01/07/java-foreach/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
@@ -44,21 +37,7 @@
   </url>
   
   <url>
-    <loc>https://ouyangyewei.github.io/2017/03/13/java-pass-by-value-and-pass-by-reference/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2017/02/05/java-abstract-and-interface/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2017/04/01/java-stringbuffer/</loc>
+    <loc>https://ouyangyewei.github.io/2017/02/07/java-inner-class/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
@@ -66,6 +45,27 @@
   
   <url>
     <loc>https://ouyangyewei.github.io/2017/04/01/java-string/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2017/01/08/java-access-modifier/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2017/01/21/java-static/</loc>
+    
+    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ouyangyewei.github.io/2017/04/01/java-stringbuffer/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
@@ -87,13 +87,6 @@
   
   <url>
     <loc>https://ouyangyewei.github.io/2016/01/10/linux-multi-process-concurrent-control/</loc>
-    
-    <lastmod>2017-09-25T13:26:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ouyangyewei.github.io/2017/01/08/java-access-modifier/</loc>
     
     <lastmod>2017-09-25T13:26:33.000Z</lastmod>
     
