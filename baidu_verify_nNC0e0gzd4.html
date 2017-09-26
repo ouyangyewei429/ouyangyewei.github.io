@@ -8,13 +8,17 @@
   <link rel="dns-prefetch" href="http://ouyangyewei.github.io">
   <title>Maxwell</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="nNC0e0gzd4">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Maxwell">
-<meta property="og:url" content="http://ouyangyewei.github.io/index.html">
+<meta property="og:url" content="http://ouyangyewei.github.io/baidu_verify_nNC0e0gzd4.html">
 <meta property="og:site_name" content="Maxwell">
+<meta property="og:description" content="nNC0e0gzd4">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-09-26T04:05:26.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Maxwell">
+<meta name="twitter:description" content="nNC0e0gzd4">
   
     <link rel="alternative" href="/atom.xml" title="Maxwell" type="application/atom+xml">
   
@@ -144,70 +148,52 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-java-classfile" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
   <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/03/java-classfile/">Java Class文件浅析</a>
-    </h1>
-  
-
-        
-        <a href="/2017/04/03/java-classfile/" class="archive-article-date">
-  	<time datetime="2017-04-02T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-03</time>
-</a>
-        
-      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote>
-<p>此文仅作为学习笔记，本篇文章只记录Java的Class文件的部分信息</p>
-</blockquote>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">TBase</span> </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f0</span><span class="params">()</span> </span>&#123;&#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Turtle</span> <span class="keyword">extends</span> <span class="title">TBase</span> </span>&#123;</div><div class="line">    <span class="keyword">private</span> <span class="keyword">int</span> t1;</div><div class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> t2;</div><div class="line"></div><div class="line">    <span class="comment">// 常量，放入常量池中</span></div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> t3 = <span class="number">65535</span>;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f1</span><span class="params">()</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> i = <span class="number">1</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f2</span><span class="params">(<span class="keyword">int</span> arg2)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> newArg = arg2;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f3</span><span class="params">(<span class="keyword">long</span> arg3)</span> </span>&#123;</div><div class="line">        <span class="keyword">long</span> newArg = arg3;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">        <span class="comment">// 编译期优化，</span></div><div class="line">        <span class="comment">// 直接将"a","b","c"作为字符串常量，</span></div><div class="line">        <span class="comment">// 放入常量池中</span></div><div class="line">        String a = <span class="string">"a"</span>;</div><div class="line">        String b = <span class="string">"b"</span>;</div><div class="line">        String c = <span class="string">"c"</span>;</div><div class="line">        String d = a + b + c;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-        
-          <a class="article-more-a" href="/2017/04/03/java-classfile/#more">more >></a>
-        
+        nNC0e0gzd4
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢打赏<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/alipay.jpeg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/wechatpay.jpeg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
       
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
       
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
 
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/03/java-classfile/">展开全文 >></a>
-        </p>
       
 
       
@@ -215,6 +201,8 @@
     </div>
   </div>
 </article>
+
+  
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -234,847 +222,30 @@
 
 
 
-
-  
-    <article id="post-java-string" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/01/java-string/">Java String</a>
-    </h1>
-  
-
-        
-        <a href="/2017/04/01/java-string/" class="archive-article-date">
-  	<time datetime="2017-03-31T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="String类"><a href="#String类" class="headerlink" title="String类"></a>String类</h3><h4 id="String类是不可变类"><a href="#String类是不可变类" class="headerlink" title="String类是不可变类"></a>String类是不可变类</h4><p>下面代码片段摘自java.lang.String<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="class"><span class="keyword">class</span> <span class="title">String</span></span></div><div class="line"><span class="class">    <span class="keyword">implements</span> <span class="title">java</span>.<span class="title">io</span>.<span class="title">Serializable</span>, <span class="title">Comparable</span>&lt;<span class="title">String</span>&gt;, <span class="title">CharSequence</span> </span>&#123;</div><div class="line">    <span class="comment">/** The value is used for character storage. */</span></div><div class="line">    <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">char</span> value[];</div><div class="line"></div><div class="line">    <span class="comment">/** Cache the hash code for the string */</span></div><div class="line">    <span class="keyword">private</span> <span class="keyword">int</span> hash; <span class="comment">// Default to 0</span></div></pre></td></tr></table></figure></p>
-<p>可见，String类使用final关键字修饰，是不可变类，因此不可被继承；</p>
-        
-          <a class="article-more-a" href="/2017/04/01/java-string/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/01/java-string/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-stringbuffer" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/01/java-stringbuffer/">Java StringBuffer</a>
-    </h1>
-  
-
-        
-        <a href="/2017/04/01/java-stringbuffer/" class="archive-article-date">
-  	<time datetime="2017-03-31T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>StringBuffer和StringBuilder，两者都是可变对象，都继承java.lang.AbstractStringBuilder类，都实现java.io.Serializable和java.lang.CharSequence接口。<br>最大的区别在于：<b><u>StringBuffer是线程安全的，而StringBuilder是非线程安全的</u></b></p>
-        
-          <a class="article-more-a" href="/2017/04/01/java-stringbuffer/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/01/java-stringbuffer/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-pass-by-value-and-pass-by-reference" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/13/java-pass-by-value-and-pass-by-reference/">Java 值传递与引用传递</a>
-    </h1>
-  
-
-        
-        <a href="/2017/03/13/java-pass-by-value-and-pass-by-reference/" class="archive-article-date">
-  	<time datetime="2017-03-12T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-13</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>Java在传递参数时，是通过值传递，而不是通过引用传递的</p>
-</blockquote>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo</span> </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">func_1</span><span class="params">(Dog a)</span> </span>&#123;</div><div class="line">        Dog b = <span class="keyword">new</span> Dog(<span class="string">"dog_b"</span>);</div><div class="line">        a = b;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">func_2</span><span class="params">(Dog a)</span> </span>&#123;</div><div class="line">        a.setName(<span class="string">"dog_a"</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">        Dog dog = <span class="keyword">new</span> Dog(<span class="string">"dog"</span>);</div><div class="line">        func_1(dog);</div><div class="line">        func_2(dog);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>其中类Dog如下：<br><img src="http://ol3q0aw97.bkt.clouddn.com/blog/java-pass-by-value-and-pass-by-reference/img_001.png" alt="img_001"></p>
-        
-          <a class="article-more-a" href="/2017/03/13/java-pass-by-value-and-pass-by-reference/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/03/13/java-pass-by-value-and-pass-by-reference/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-inner-class" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/07/java-inner-class/">Java 内部类</a>
-    </h1>
-  
-
-        
-        <a href="/2017/02/07/java-inner-class/" class="archive-article-date">
-  	<time datetime="2017-02-06T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-07</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>内部类的访问控制符可以使用public、protected、private，而外部类只能使用public和默认</p>
-</blockquote>
-<h3 id="成员内部类与静态内部类"><a href="#成员内部类与静态内部类" class="headerlink" title="成员内部类与静态内部类"></a>成员内部类与静态内部类</h3><p>直接定义在外部类内部（不在方法或代码块内部），它可以直接访问外部类的所有成员变量和方法（包括private）。它可以有各种修饰符，包括：public、protected、private、static、final和abstract，也可以是默认；</p>
-        
-          <a class="article-more-a" href="/2017/02/07/java-inner-class/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/02/07/java-inner-class/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-abstract-and-interface" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/02/05/java-abstract-and-interface/">Java 抽象类与接口</a>
-    </h1>
-  
-
-        
-        <a href="/2017/02/05/java-abstract-and-interface/" class="archive-article-date">
-  	<time datetime="2017-02-04T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-02-05</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h3><p>用于捕捉子类的共有特性，它不能被实例化，只能用作子类的超类。抽象类是被用来创建继承层级里子类的模板。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">AbstractClass</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">AbstractClass</span><span class="params">()</span> </span>&#123;</div><div class="line">        <span class="comment">// do sth</span></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">af1</span><span class="params">()</span></span>;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">af2</span><span class="params">()</span></span>;</div><div class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">af3</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line">    <span class="comment">// ! abstract方法只能是非private的</span></div><div class="line">    <span class="comment">// private abstract void af4();</span></div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">void</span> <span class="title">f1</span><span class="params">()</span> </span>&#123;&#125;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f2</span><span class="params">()</span> </span>&#123;&#125;</div><div class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">f3</span><span class="params">()</span> </span>&#123;&#125;</div><div class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">f4</span><span class="params">()</span> </span>&#123;&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-        
-          <a class="article-more-a" href="/2017/02/05/java-abstract-and-interface/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/02/05/java-abstract-and-interface/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-final-and-private" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/28/java-final-and-private/">Java final与private关键字</a>
-    </h1>
-  
-
-        
-        <a href="/2017/01/28/java-final-and-private/" class="archive-article-date">
-  	<time datetime="2017-01-27T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="final关键字"><a href="#final关键字" class="headerlink" title="final关键字"></a>final关键字</h3><ul>
-<li>对于基本类型，final使其数值恒定不变</li>
-<li>对于对象引用，final使其引用恒定不变（一旦引用被初始化指向一个对象，就无法再把它指向另一个对象，然而，对象其自身是可以修改的）</li>
-</ul>
-        
-          <a class="article-more-a" href="/2017/01/28/java-final-and-private/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/01/28/java-final-and-private/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-static" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/21/java-static/">Java static与构造器顺序</a>
-    </h1>
-  
-
-        
-        <a href="/2017/01/21/java-static/" class="archive-article-date">
-  	<time datetime="2017-01-20T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-21</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="static与构造器顺序"><a href="#static与构造器顺序" class="headerlink" title="static与构造器顺序"></a><code>static</code>与构造器顺序</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span> </span>&#123;</div><div class="line">    A(<span class="keyword">int</span> n) &#123;</div><div class="line">        System.out.println(<span class="string">"A("</span> + n + <span class="string">")"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> </span>&#123;</div><div class="line">    B(<span class="keyword">int</span> n) &#123;</div><div class="line">        System.out.println(<span class="string">"B("</span> + n + <span class="string">")"</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestStatic</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">static</span> A a1 = <span class="keyword">new</span> A(<span class="number">1</span>);</div><div class="line">    B b1 = <span class="keyword">new</span> B(<span class="number">1</span>);</div><div class="line">    <span class="keyword">static</span> A a2 = <span class="keyword">new</span> A(<span class="number">2</span>);</div><div class="line">    B b2 = <span class="keyword">new</span> B(<span class="number">2</span>);</div><div class="line">    A a3;</div><div class="line">    A a4;</div><div class="line"></div><div class="line">    <span class="keyword">static</span> &#123;</div><div class="line">        System.out.println(<span class="string">"Inside static block."</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    TestStatic() &#123;</div><div class="line">        System.out.println(<span class="string">"Inside Constructor."</span>);</div><div class="line">        a3 = <span class="keyword">new</span> A(<span class="number">3</span>);</div><div class="line">        a4 = <span class="keyword">new</span> A(<span class="number">4</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">        System.out.println(<span class="string">"Creating TestStatic"</span>);</div><div class="line">        <span class="keyword">new</span> TestStatic();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">static</span> A a5 = <span class="keyword">new</span> A(<span class="number">5</span>);</div><div class="line">    <span class="keyword">static</span> A a6 = <span class="keyword">new</span> A(<span class="number">6</span>);</div><div class="line">&#125;</div><div class="line"><span class="comment">/* Output:</span></div><div class="line"><span class="comment">A(1)</span></div><div class="line"><span class="comment">A(2)</span></div><div class="line"><span class="comment">Inside static block.</span></div><div class="line"><span class="comment">A(5)</span></div><div class="line"><span class="comment">A(6)</span></div><div class="line"><span class="comment">Creating TestStatic</span></div><div class="line"><span class="comment">B(1)</span></div><div class="line"><span class="comment">B(2)</span></div><div class="line"><span class="comment">Inside Constructor.</span></div><div class="line"><span class="comment">A(3)</span></div><div class="line"><span class="comment">A(4)</span></div><div class="line"><span class="comment">*/</span><span class="comment">//:~</span></div></pre></td></tr></table></figure>
-<p>从上面的程序中，可以发现：</p>
-<blockquote>
-<p>初始化的顺序是先<em>静态对象</em>，然后是<em>“非静态”对象</em></p>
-</blockquote>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/01/21/java-static/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-access-modifier" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/08/java-access-modifier/">Java 修饰符访问权限</a>
-    </h1>
-  
-
-        
-        <a href="/2017/01/08/java-access-modifier/" class="archive-article-date">
-  	<time datetime="2017-01-07T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="修饰符访问权限列表"><a href="#修饰符访问权限列表" class="headerlink" title="修饰符访问权限列表"></a>修饰符访问权限列表</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">修饰符</th>
-<th style="text-align:left">当前类</th>
-<th style="text-align:left">同一包内</th>
-<th style="text-align:left">子孙类</th>
-<th style="text-align:left">其他包</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">public</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">√</td>
-</tr>
-<tr>
-<td style="text-align:left">protected</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">×</td>
-</tr>
-<tr>
-<td style="text-align:left">default</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">×</td>
-<td style="text-align:left">×</td>
-</tr>
-<tr>
-<td style="text-align:left">private</td>
-<td style="text-align:left">√</td>
-<td style="text-align:left">×</td>
-<td style="text-align:left">×</td>
-<td style="text-align:left">×</td>
-</tr>
-</tbody>
-</table>
-<p>参考:<a href="https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html" target="_blank" rel="external">https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/01/08/java-access-modifier/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-java-foreach" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/07/java-foreach/">Java 循环与值拷贝</a>
-    </h1>
-  
-
-        
-        <a href="/2017/01/07/java-foreach/" class="archive-article-date">
-  	<time datetime="2017-01-06T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-01-07</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="Foreach与值拷贝"><a href="#Foreach与值拷贝" class="headerlink" title="Foreach与值拷贝"></a><code>Foreach</code>与值拷贝</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">char</span>[] array = <span class="string">"boss"</span>.toCharArray();</div><div class="line"><span class="keyword">for</span> (<span class="keyword">char</span> c : array) &#123;</div><div class="line">    <span class="keyword">if</span> (c == <span class="string">'o'</span>) &#123;</div><div class="line">        c = <span class="string">'a'</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line">System.out.println(array);</div><div class="line"></div><div class="line"><span class="comment">/* Output:</span></div><div class="line"><span class="comment">boss</span></div><div class="line"><span class="comment">*/</span><span class="comment">//:~</span></div></pre></td></tr></table></figure>
-        
-          <a class="article-more-a" href="/2017/01/07/java-foreach/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/java//" class="article-tag-list-link color5">java</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/01/07/java-foreach/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
+  
+
+  
+
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://ouyangyewei.github.io/baidu_verify_nNC0e0gzd4.html",
+  owner: 'ouyangyewei',
+  repo: 'https://github.com/ouyangyewei/ouyangyewei.github.io',
+  oauth: {
+    client_id: 'e06d65ed4cec3c174178',
+    client_secret: 'bb6afd2ed11c57b8d44d9152c4f3e1871cfef403',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
@@ -1097,7 +268,7 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
+		isHome: false,
 		isPost: false,
 		isArchive: false,
 		isTag: false,
